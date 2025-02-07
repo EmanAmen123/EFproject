@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|e:\\iti\\linq \u0026 ef\\day5\\project\\myproject\\myproject\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|solutionrelative:myproject\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|e:\\iti\\linq \u0026 ef\\day5\\project\\myproject\\myproject\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|solutionrelative:myproject\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|e:\\iti\\linq \u0026 ef\\day5\\project\\myproject\\myproject\\updateuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|solutionrelative:myproject\\updateuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|e:\\iti\\linq \u0026 ef\\day5\\project\\myproject\\myproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|solutionrelative:myproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|e:\\iti\\linq \u0026 ef\\day5\\project\\myproject\\myproject\\adoptionsrec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|solutionrelative:myproject\\adoptionsrec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|e:\\iti\\linq \u0026 ef\\day5\\project\\myproject\\myproject\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB57F2D-D955-4A48-84F7-3F06C12480CD}|myProject\\myProject.csproj|solutionrelative:myproject\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "userProfile.cs [Design]",
+              "DocumentMoniker": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\userProfile.cs",
+              "RelativeDocumentMoniker": "myProject\\userProfile.cs",
+              "ToolTip": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\userProfile.cs [Design]",
+              "RelativeToolTip": "myProject\\userProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:42:31.764Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\UserForm.cs",
+              "RelativeDocumentMoniker": "myProject\\UserForm.cs",
+              "ToolTip": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\UserForm.cs [Design]",
+              "RelativeToolTip": "myProject\\UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:42:15.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "updateuserProfile.cs [Design]",
+              "DocumentMoniker": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\updateuserProfile.cs",
+              "RelativeDocumentMoniker": "myProject\\updateuserProfile.cs",
+              "ToolTip": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\updateuserProfile.cs [Design]",
+              "RelativeToolTip": "myProject\\updateuserProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:42:00.445Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "register.cs [Design]",
+              "DocumentMoniker": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\register.cs",
+              "RelativeDocumentMoniker": "myProject\\register.cs",
+              "ToolTip": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\register.cs [Design]",
+              "RelativeToolTip": "myProject\\register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:41:45.349Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdoptionsRec.cs [Design]",
+              "DocumentMoniker": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\AdoptionsRec.cs",
+              "RelativeDocumentMoniker": "myProject\\AdoptionsRec.cs",
+              "ToolTip": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\AdoptionsRec.cs [Design]",
+              "RelativeToolTip": "myProject\\AdoptionsRec.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:40:57.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "adminform.cs",
+              "DocumentMoniker": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\adminform.cs",
+              "RelativeDocumentMoniker": "myProject\\adminform.cs",
+              "ToolTip": "E:\\iti\\linQ \u0026 EF\\day5\\project\\myProject\\myProject\\adminform.cs",
+              "RelativeToolTip": "myProject\\adminform.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:37:13.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
