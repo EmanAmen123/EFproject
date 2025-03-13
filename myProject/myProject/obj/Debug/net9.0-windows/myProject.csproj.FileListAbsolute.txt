@@ -304,9 +304,7 @@ E:\iti\linQ & EF\day5\project\myProject\myProject\bin\Debug\net9.0-windows\runti
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.csproj.AssemblyReference.cache
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.adminForm.resources
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.adminPets.resources
-E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.admin_users.resources
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.AdoptionsRec.resources
-E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.doctorForm.resources
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.Form1.resources
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.Properties.Resources.resources
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.register.resources
@@ -326,3 +324,4 @@ E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myPro
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\ref\myProject.dll
 E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.adminUsers.resources
 E:\iti\linQ & EF\day5\project\myProject\myProject\bin\Debug\net9.0-windows\BCrypt.Net-Next.dll
+E:\iti\linQ & EF\day5\project\myProject\myProject\obj\Debug\net9.0-windows\myProject.sourcelink.json

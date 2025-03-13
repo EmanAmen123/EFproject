@@ -44,6 +44,8 @@ namespace myProject
             genderpet_lbl.Visible = display;
             descpet_lbl.Visible = display;
             addpet_btn.Visible = display;
+            vaccinelbl.Visible = display;
+            vaccinename.Visible = display;
         }
         public void DisplayRecordInps(bool display)
         {
@@ -58,7 +60,8 @@ namespace myProject
             recdesc_inp.Visible = display;
             vetname_lbl.Visible = display;
             nextdate_lbl.Visible = display;
-
+            vaccinelbl.Visible = display;
+            vaccinename.Visible = display;
         }
         private void adminPets_Load(object sender, EventArgs e)
         {
@@ -250,7 +253,7 @@ namespace myProject
 
         private void saveaddrec_btn_Click(object sender, EventArgs e)
         {
-            if (recdesc_inp.Text != "" && vetname_inp.Text != "")
+            if (recdesc_inp.Text != "" && vetname_inp.Text != "" && vaccinename.Text != "")
             {
                 MedicalRecords med = new MedicalRecords()
                 {
@@ -258,7 +261,9 @@ namespace myProject
                     Description = recorddesc_inp.Text,
                     VetName = vetname_inp.Text,
                     NextAppointment = nextdate_inp.Value,
-                    petId = id
+                    petId = id,
+                    Vaccine_name = vaccinename.Text
+
                 };
                 db.Medical.Add(med);
                 db.SaveChanges();
@@ -290,17 +295,19 @@ namespace myProject
             recorddesc_inp.Text = record.Description;
             vetname_inp.Text = record.VetName;
             nextdate_inp.Value = record.NextAppointment;
+            vaccinename.Text = record.Vaccine_name;
 
         }
 
         private void updatemedical_btn_Click(object sender, EventArgs e)
         {
-            if (recorddesc_inp.Text != "" && vetname_inp.Text != "")
+            if (recorddesc_inp.Text != "" && vetname_inp.Text != "" && vaccinename.Text != "")
             {
                 record.Date = daterecord_inp.Value;
                 record.Description = recorddesc_inp.Text;
                 record.VetName = vetname_inp.Text;
                 record.NextAppointment = nextdate_inp.Value;
+                record.Vaccine_name = vaccinename.Text;
                 db.SaveChanges();
                 dgv_medical.DataSource = db.Medical.Where(n => n.petId == id).Select(
                    n => new
@@ -310,6 +317,7 @@ namespace myProject
                        n.Description,
                        n.NextAppointment,
                        n.VetName,
+                       n.Vaccine_name,
                        n.petId
                    }
                    ).ToList();
@@ -345,6 +353,11 @@ namespace myProject
             adminform admin = new adminform();
             this.Close();
             admin.Show();
+        }
+
+        private void dgv_medical_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
