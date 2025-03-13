@@ -32,13 +32,15 @@ namespace myProject
             dgv_pet.Visible = dis;
             dgv_medical.Visible = dis;
             dgv_adopter.Visible = dis;
+            delete_btn.Visible = dis;
+            accept_btn.Visible = dis;
         }
         private void AdoptionsRec_Load(object sender, EventArgs e)
         {
             display(false);
             delete_btn.Visible = false;
             accept_btn.Visible = false;
-
+        
             dgv_records.DataSource = db.Adoptions.Include(n => n.AdoptedPet).Include(n => n.Adopter).Select(
                 n => new
                 {
@@ -64,7 +66,7 @@ namespace myProject
             pet_id = (int)dgv_records.SelectedRows[0].Cells["petId"].Value;
             adopter_id = (int)dgv_records.SelectedRows[0].Cells["adopterId"].Value;
             display(true);
-            dgv_medical.Columns[6].Visible = false;
+            //dgv_medical.Columns[6].Visible = false;
             delete_btn.Visible = true;
             dgv_pet.DataSource = db.Pets.Where(n => n.Id == pet_id).Select(n => new
             {

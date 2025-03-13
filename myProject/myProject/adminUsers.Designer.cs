@@ -379,6 +379,7 @@
             rule_inp.ShadowDecoration.CustomizableEdges = customizableEdges24;
             rule_inp.Size = new Size(286, 36);
             rule_inp.TabIndex = 60;
+            rule_inp.SelectedIndexChanged += rule_inp_SelectedIndexChanged;
             // 
             // rule_lbl
             // 

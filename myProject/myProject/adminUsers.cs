@@ -113,6 +113,8 @@ namespace myProject
                     db.SaveChanges();
                     dgv.DataSource = db.Members.Where(n => n.isDeleted == false).ToList();
                     MessageBox.Show("user added successfuly.");
+                    fname_inp.Text = lname_inp.Text = address_inp.Text  = email_inp.Text = pass_input.Text = phone_inp.Text = "";
+                    age_inp.Value = 0;
                     //Display(false);
                     update_btn.Visible = false;
                     delete_btn.Visible = false;
@@ -235,6 +237,11 @@ namespace myProject
             adminform admin = new adminform();
             this.Close();
             admin.Show();
+        }
+
+        private void rule_inp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

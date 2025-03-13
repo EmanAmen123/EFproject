@@ -64,6 +64,7 @@
             phone_inp = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)age_inp).BeginInit();
             SuspendLayout();
             // 
@@ -278,7 +279,7 @@
             confirmpass_inp.Location = new Point(343, 419);
             confirmpass_inp.Margin = new Padding(3, 4, 3, 4);
             confirmpass_inp.Name = "confirmpass_inp";
-            confirmpass_inp.PasswordChar = '\0';
+            confirmpass_inp.PasswordChar = '*';
             confirmpass_inp.PlaceholderText = "";
             confirmpass_inp.SelectedText = "";
             confirmpass_inp.ShadowDecoration.CustomizableEdges = customizableEdges16;
@@ -326,11 +327,23 @@
             checkBox1.UseVisualStyleBackColor = true;
             checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(636, 436);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(101, 24);
+            checkBox2.TabIndex = 42;
+            checkBox2.Text = "checkBox2";
+            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
             // register
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(861, 659);
+            Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(guna2HtmlLabel2);
             Controls.Add(phone_inp);
@@ -376,5 +389,6 @@
         private Guna.UI2.WinForms.Guna2TextBox phone_inp;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private CheckBox checkBox1;
+        private CheckBox checkBox2;
     }
 }

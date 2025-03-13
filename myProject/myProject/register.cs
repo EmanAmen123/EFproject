@@ -44,7 +44,7 @@ namespace myProject
                             F_name = fname_inp.Text,
                             L_name = lname_inp.Text,
                             Email = email_inp.Text,
-                            Password = BCrypt.Net.BCrypt.HashPassword( pass_input.Text),
+                            Password = BCrypt.Net.BCrypt.HashPassword(pass_input.Text),
                             Age = (int)age_inp.Value,
                             Address = address_inp.Text,
                             Role = "user",
@@ -79,6 +79,15 @@ namespace myProject
 
             else
                 pass_input.PasswordChar = '*';
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+                confirmpass_inp.PasswordChar = '\0';
+
+            else
+                confirmpass_inp.PasswordChar = '*';
         }
     }
 }
